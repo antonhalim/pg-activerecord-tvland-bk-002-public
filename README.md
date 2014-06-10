@@ -16,6 +16,7 @@ characters. We want to model our database the same way.
 
 # Instructions
 
+Run `createdb tvland` to create tvland database.
 Fork and clone this repository, and get your rspec tests to pass.
 
 You have rake tasks available to you: `rake db:migrate` and `rake
