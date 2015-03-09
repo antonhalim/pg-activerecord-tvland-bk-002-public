@@ -22,11 +22,11 @@ describe Network do
     network.shows.count.should eq(1)
   end
 
-  it "stops cancelling great shows" do
-    network.call_letters = "NBC"
-    pending "if anyone has contacts at NBC tell them to get their act together please"
-    # TODO: nothing. please don't try to implement this test!
-  end
+  # xit "stops cancelling great shows" do
+  #   network.call_letters = "NBC"
+  #   pending "if anyone has contacts at NBC tell them to get their act together please"
+  #   # TODO: nothing. please don't try to implement this test!
+  # end
 
   it "should have picked up John Mullaney's Pilot" do
     network.call_letters == "NBC"
